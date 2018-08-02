@@ -16,3 +16,4 @@ stage('Deploy to Tomcat'){
       sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@18.188.194.125:/opt/tomcat9/apache-tomcat-9.0.10/webapps'
       }
    }
+}
