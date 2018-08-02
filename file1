@@ -7,4 +7,7 @@ node{
       def mvnHome =  tool name: 'maven3', type: 'maven'   
       sh "${mvnHome}/bin/mvn package"
    }
+ stage('Email Notification'){
+      mail bcc: '', body: 'hai', cc: '', from: '', replyTo: '', subject: 'hai', to: 'kishorekumaryadav251@gmail.com'
+   }
    }
