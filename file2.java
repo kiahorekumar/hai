@@ -1,4 +1,4 @@
-public class Hello{
+ublic class Hello{
 
     public static void main(String[] args){
        
