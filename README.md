@@ -1,4 +1,4 @@
-teps {
+{
                 sh 'mvn test'
             }
             post {
