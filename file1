@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 node{
    ('SCM Checkout'){
+=======
+{
+   stage('SCM Checkout'){
+>>>>>>> branch 'master' of git@github.com:kiahorekumar/hai.git
      git 'https://github.com/javahometech/my-app'
    }
    stage('Compile-Package'){
